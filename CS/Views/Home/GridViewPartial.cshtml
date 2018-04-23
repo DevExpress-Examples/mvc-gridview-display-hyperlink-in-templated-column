@@ -1,0 +1,26 @@
+﻿@model System.Collections.IEnumerable
+
+@Html.DevExpress().GridView(settings => {
+    settings.Name = "GridView";
+    settings.KeyFieldName = "PersonID";
+    settings.CallbackRouteValues = new { Controller = "Home", Action = "GridViewPartial" };
+
+    settings.Columns.Add("FirstName");
+    settings.Columns.Add("MiddleName");
+    settings.Columns.Add("LastName");
+
+    settings.Columns.Add(column => {
+        column.Caption = "Details";
+        column.SetDataItemTemplateContent(container => {
+            Html.DevExpress().HyperLink(hyperlink => {
+                var visibleIndex = container.VisibleIndex;
+                var keyValue = container.KeyValue;
+                var lastName = DataBinder.Eval(container.DataItem, "LastName");
+
+                hyperlink.Name = "hl" + keyValue.ToString();
+                hyperlink.Properties.Text = lastName.ToString();
+                hyperlink.NavigateUrl = Url.Action("Details", "Home", new { id = keyValue });
+            }).Render();
+        });
+    });
+}).Bind(Model).GetHtml()
