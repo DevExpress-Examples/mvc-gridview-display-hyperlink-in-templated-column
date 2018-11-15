@@ -1,3 +1,11 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [HomeController.cs](./CS/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/Controllers/HomeController.vb))
+* [Details.cshtml](./CS/Views/Home/Details.cshtml)
+* **[GridViewPartial.cshtml](./CS/Views/Home/GridViewPartial.cshtml)**
+* [Index.cshtml](./CS/Views/Home/Index.cshtml)
+<!-- default file list end -->
 # GridView - How to display a hyperlink in templated column 
 
 
