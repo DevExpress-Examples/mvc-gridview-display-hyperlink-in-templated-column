@@ -13,7 +13,7 @@
 <!-- default file list end -->
 # GridView - How to display a hyperlink in templated column 
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/t107662)**
+**[[Run Online]](https://codecentral.devexpress.com/128549928/)**
 <!-- run online end -->
 
 
