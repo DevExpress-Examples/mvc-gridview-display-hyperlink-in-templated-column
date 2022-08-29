@@ -11,7 +11,7 @@
 * **[GridViewPartial.cshtml](./CS/Views/Home/GridViewPartial.cshtml)**
 * [Index.cshtml](./CS/Views/Home/Index.cshtml)
 <!-- default file list end -->
-# GridView - How to display a hyperlink in templated column 
+# Grid View for ASP.NET MVC - How to display a hyperlink in a templated column 
 <!-- run online -->
 **[[Run Online]](https://codecentral.devexpress.com/128549928/)**
 <!-- run online end -->
