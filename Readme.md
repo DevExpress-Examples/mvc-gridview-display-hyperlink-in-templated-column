@@ -53,7 +53,17 @@ settings.Columns.Add( _
 
 ## Files to Look At:
 
-* [HomeController.cs](./CS/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/Controllers/HomeController.vb))
-* [Details.cshtml](./CS/Views/Home/Details.cshtml) (VB: [Details.vbhtml](./VB/Views/Home/Details.vbhtml))
-* [GridViewPartial.cshtml](./CS/Views/Home/GridViewPartial.cshtml) (VB: [GridViewPartial.vbhtml](./VB/Views/Home/GridViewPartial.vbhtml))
-* [Index.cshtml](./CS/Views/Home/Index.cshtml) (VB: [Index.vbhtml](./VB/Views/Home/Index.vbhtml))
+- [HomeController.cs](./CS/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/Controllers/HomeController.vb))
+- [Details.cshtml](./CS/Views/Home/Details.cshtml) (VB: [Details.vbhtml](./VB/Views/Home/Details.vbhtml))
+- [GridViewPartial.cshtml](./CS/Views/Home/GridViewPartial.cshtml) (VB: [GridViewPartial.vbhtml](./VB/Views/Home/GridViewPartial.vbhtml))
+- [Index.cshtml](./CS/Views/Home/Index.cshtml) (VB: [Index.vbhtml](./VB/Views/Home/Index.vbhtml))
+
+## Documentation
+
+- [Templates](https://docs.devexpress.com/AspNetMvc/14721/common-features/templates)
+- [Hyperlink](https://docs.devexpress.com/AspNetMvc/8987/components/data-editors-extensions/hyperlink)
+
+## More Examples
+
+- [Grid View for ASP.NET Web Forms - How to show a popup when a user clicks a hyperlink in a grid column's DataItemTemplate](https://github.com/DevExpress-Examples/aspxgridview-dataitemtemplate-hyperlink-popup)
+- [Grid View for APS.NET MVC - How to use the jQuery.ajax function with DevExpress MVC extensions](https://github.com/DevExpress-Examples/mvc-gridview-jqueryajax-function)
