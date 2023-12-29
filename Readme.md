@@ -4,9 +4,6 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 # Grid View for ASP.NET MVC - How to display a hyperlink in a templated column 
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128549928/)**
-<!-- run online end -->
 
 This example illustrates how to use the  [MVCxGridViewColumn.SetDataItemTemplateContent](https://documentation.devexpress.com/#AspNet/DevExpressWebMvcMVCxGridViewColumn_SetDataItemTemplateContenttopic2592) method to display a hyperlink in a grid column. The hyperlink parameters (text, navigate url) are calculated based on the template's container. The code below creates the hyperlink:
 
