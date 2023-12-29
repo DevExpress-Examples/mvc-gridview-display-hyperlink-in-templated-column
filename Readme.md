@@ -12,9 +12,6 @@
 * [Index.cshtml](./CS/Views/Home/Index.cshtml)
 <!-- default file list end -->
 # GridView - How to display a hyperlink in templated column 
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128549928/)**
-<!-- run online end -->
 
 
 This example illustrates how to use the <a href="https://documentation.devexpress.com/#AspNet/DevExpressWebMvcMVCxGridViewColumn_SetDataItemTemplateContenttopic2592">MVCxGridViewColumn.SetDataItemTemplateContent(Action`1) Method</a> to display a hyperlink in a specific column. The hyperlink parameters (text, navigate url) are calculated based on the template's container. Here is the most important part of the code that is responsible for hyperlink creation:<br /><br />
